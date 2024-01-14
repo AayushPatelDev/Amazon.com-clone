@@ -1,0 +1,244 @@
+* {
+  margin: 0px;
+  font-family: Arial;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url(logo2.jpg);
+  background-size: contain;
+  height: 50px;
+  width: 100%;
+}
+.border {
+  position: relative;
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid rgb(255, 255, 255);
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+}
+.add-first {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+
+.add-second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  height: 40px;
+  width: 610px;
+}
+.nav-search:hover {
+  border: 2px solid orange;
+}
+.select-class {
+  background-color: #fcfcfc;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  border: none;
+  width: 50px;
+}
+.search-class {
+  width: 550px;
+  font-size: 1rem;
+  border: none;
+}
+.icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+
+/**box4**/
+
+span {
+  font-size: 0.8rem;
+}
+.nav-accounts {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.nav-cart {
+  display: flex;
+}
+.nav-cart i {
+  font-size: 1.7rem;
+}
+.nav-cart-text {
+  font-weight: 700;
+}
+
+/**pannel**/
+.pannel-class {
+  display: flex;
+  background-color: #222f3d;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pannel {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.pannel-ops {
+  display: flex;
+  width: 70%;
+  margin-left: 15px;
+}
+
+.pannel-deals {
+  font-size: 0.9rem;
+}
+.ops {
+  margin-left: 15px;
+}
+
+.hero-area {
+  background-image: url(hero.jpg);
+
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  height: 40px;
+  background-color: white;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+}
+
+#text {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+/**boxes**/
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(40, 122, 115);
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 400px;
+  width: 23%;
+  border: 2px solid black;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+.box-img {
+  height: 350px;
+  background-size: contain;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.1rem;
+}
+.box-stuff {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/**fotter**/
+footer {
+  margin-top: 15px;
+}
+
+.foot-pannel1 {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-pannel2 {
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
+.foot-pannel3 {
+  background-color: #222f3d;
+  border-top: 0.5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo2 {
+  background-image: url(logo2.jpg);
+  background-size: cover;
+  height: 50px;
+  width: 120px;
+}
+
+.foot-pannel4 {
+  background-color: #0f1111;
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pages {
+  font-size: 0.7rem;
+  text-align: center;
+}
+.copyright {
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 1px;
+}
